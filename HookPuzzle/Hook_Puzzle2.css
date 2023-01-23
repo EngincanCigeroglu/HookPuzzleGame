@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    background-color: #114B5F;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 2%;
+}
+
+#container {
+    padding: 10px;
+    width: auto;
+    height: auto;
+    align-items: middle;
+    display: grid;
+    border-radius: 45px;
+    box-shadow: 0px 0px 47px 5px #2EE59D;
+    /* box-shadow: 0px 0px 47px 5px rgb(2, 145, 73); */
+
+}
+
+
+button {
+    background: #456990;
+    width: 50px;
+    height: auto;
+    border: none;
+    margin:  2px;
+    text-align: center;
+    font-size: 1.7rem;
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;    
+    text-transform: uppercase;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease 0s;
+    cursor: pointer;
+    outline: none;
+    border-radius: 45px;
+
+}
+
+button:hover
+{
+
+    background-color:  #ff1d1d !important; 
+} 
+
+.buldun{
+        background-color: #23c483;
+
+}
+
+.secili{
+    background-color: #ff1d1d;
+
+}
+
+.kelimeler{
+    font-size: 25px;
+    color: whitesmoke; 
+    font-family: 'Roboto', sans-serif;   
+
+
+}
+
+.kelimebaslik{
+    padding: 10px;
+    color: white;
+    border: 1px solid none;
+    box-shadow: 0px 0px 47px 5px #2EE59D;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;    
+    font-size: 35px;
+
+}
+
+.bulundu{
+    color: #23c483;
+}
+
